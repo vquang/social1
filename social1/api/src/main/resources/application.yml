@@ -1,0 +1,14 @@
+server:
+  port: 8082
+spring:
+  security:
+    user:
+      name: admin
+      password: 12345678
+    jwt:
+      secret-key: fd7a5235f6f60d5756b26d9bf729ac57f6960023b3c34d742fbb12e1970c9625 # sha256(nvq)
+      expired-in: 86400000 # 1 day
+  cdn:
+    user:
+      df-avatar: D:\nvq\nvq2\cdn\images\avatar1.png
+      df-post: D:\nvq\nvq2\cdn\images\df_post.png
